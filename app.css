@@ -1,0 +1,50 @@
+body {
+    background-color: rgba(0, 0, 0, .8)
+}
+
+#calculator {
+    width: 50%;
+    margin: auto;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    font-family: 'Segoe UI', sans-serif;
+    text-align: center;
+    color: honeydew;
+    font-size: 4em;
+    margin: 40px 0 10px;
+}
+
+button {
+    font-size: 2.5em;
+    font-weight: 700;
+    min-width: 80px;
+    min-height: 80px;
+    margin: 2px;
+    border: 2px solid black;
+    border-radius: 50%;
+    transition: background-color .1s ease-in-out, color .1s ease-in-out, border-color .1s ease-in-out;
+}
+
+.nums, #dec, #plus-minus {
+    background-color: rgb(255, 218, 185);
+}
+
+button:hover {
+    background-color: rgba(255, 251, 0, 0.2) !important;
+    color: honeydew;
+    border-color: honeydew;
+}
+
+#equals {
+    background-color: orange;
+}
+
+.operations {
+    background-color: palegreen;
+}
